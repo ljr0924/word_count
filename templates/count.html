@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>字数统计</title>
+</head>
+<body>
+<p>
+    一共有{{ length | default:0 }}个字
+</p>
+<p>
+    字数最多的字符是：{{ max_count }}
+</p>
+<br>
+<p>你的文本</p>
+<p>{{ text }}</p>
+</body>
+</html>
